@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerMasterI_UDP", "PowerMasterI_UDP\PowerMasterI_UDP.csproj", "{29271011-E1B5-4819-8CF1-2E07723A51FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29271011-E1B5-4819-8CF1-2E07723A51FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29271011-E1B5-4819-8CF1-2E07723A51FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29271011-E1B5-4819-8CF1-2E07723A51FE}.Debug|x64.ActiveCfg = Debug|x64
+		{29271011-E1B5-4819-8CF1-2E07723A51FE}.Debug|x64.Build.0 = Debug|x64
+		{29271011-E1B5-4819-8CF1-2E07723A51FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29271011-E1B5-4819-8CF1-2E07723A51FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29271011-E1B5-4819-8CF1-2E07723A51FE}.Release|x64.ActiveCfg = Release|x64
+		{29271011-E1B5-4819-8CF1-2E07723A51FE}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC011C49-22F1-4D20-96D9-CE0C2AFE2D08}
+	EndGlobalSection
+EndGlobal
