@@ -283,7 +283,7 @@ namespace SerialArraySolutions_PowerMasterI
                     if (ok) ok = float.TryParse(parts[3], out vswr);
                     if (ok)
                     {
-                        bool vswr_read = vswr < 1;
+                        bool vswr_read = vswr >= 1;
                         if (vswr < 1) vswr = 1;
                         if (forward < 0) forward = 0;
                         if (reflected < 0) reflected = 0;
