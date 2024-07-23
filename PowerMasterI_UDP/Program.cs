@@ -114,6 +114,11 @@ namespace SerialArraySolutions_PowerMasterI
             {
                 if (serialPort.IsOpen)
                 {
+                    // stop sending data
+                    byte[] data = { 0x02, 0x44, 0x30, 0x03, 0x37, 0x31, 0x0D };
+                    serialPort.Write(data, 0, data.Length);
+                    serialPort.Write(data, 0, data.Length);
+
                     serialPort.Close();
                 }
             }
